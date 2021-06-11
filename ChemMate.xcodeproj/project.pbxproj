@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B213E93B26634C8600AED5BA /* ChemMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E93A26634C8600AED5BA /* ChemMateApp.swift */; };
-		B213E93D26634C8600AED5BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E93C26634C8600AED5BA /* ContentView.swift */; };
 		B213E93F26634C8800AED5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213E93E26634C8800AED5BA /* Assets.xcassets */; };
 		B213E94226634C8800AED5BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213E94126634C8800AED5BA /* Preview Assets.xcassets */; };
+		B213E95126634EEC00AED5BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E95026634EEC00AED5BA /* HomeView.swift */; };
+		B213E95426634F2100AED5BA /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E95326634F2100AED5BA /* ContentModel.swift */; };
+		B213E958266395A800AED5BA /* UseChemicalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E957266395A800AED5BA /* UseChemicalsView.swift */; };
+		B213E95B266395B600AED5BA /* MSDSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E95A266395B600AED5BA /* MSDSView.swift */; };
+		B213E95E266395C100AED5BA /* FirstAidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E95D266395C100AED5BA /* FirstAidView.swift */; };
+		B213E961266395D100AED5BA /* ReportsUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E960266395D100AED5BA /* ReportsUsageView.swift */; };
+		B213E964266395E300AED5BA /* PropertySetUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E963266395E300AED5BA /* PropertySetUpView.swift */; };
+		B213E967266395EE00AED5BA /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E966266395EE00AED5BA /* OrdersView.swift */; };
+		B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E969266395FF00AED5BA /* AdministrationView.swift */; };
+		B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B213E93726634C8600AED5BA /* ChemMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B213E93A26634C8600AED5BA /* ChemMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemMateApp.swift; sourceTree = "<group>"; };
-		B213E93C26634C8600AED5BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B213E93E26634C8800AED5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B213E94126634C8800AED5BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B213E94326634C8800AED5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B213E95026634EEC00AED5BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B213E95326634F2100AED5BA /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		B213E957266395A800AED5BA /* UseChemicalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseChemicalsView.swift; sourceTree = "<group>"; };
+		B213E95A266395B600AED5BA /* MSDSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDSView.swift; sourceTree = "<group>"; };
+		B213E95D266395C100AED5BA /* FirstAidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidView.swift; sourceTree = "<group>"; };
+		B213E960266395D100AED5BA /* ReportsUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsUsageView.swift; sourceTree = "<group>"; };
+		B213E963266395E300AED5BA /* PropertySetUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySetUpView.swift; sourceTree = "<group>"; };
+		B213E966266395EE00AED5BA /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		B213E969266395FF00AED5BA /* AdministrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrationView.swift; sourceTree = "<group>"; };
+		B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalStocktakeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				B213E93A26634C8600AED5BA /* ChemMateApp.swift */,
-				B213E93C26634C8600AED5BA /* ContentView.swift */,
+				B213E94A26634CB300AED5BA /* Views */,
+				B213E94B26634CBF00AED5BA /* ViewModels */,
+				B213E94C26634CC600AED5BA /* Models */,
+				B213E94D26634CCC00AED5BA /* Resources */,
+				B213E94E26634CD600AED5BA /* Helpers */,
 				B213E93E26634C8800AED5BA /* Assets.xcassets */,
 				B213E94326634C8800AED5BA /* Info.plist */,
 				B213E94026634C8800AED5BA /* Preview Content */,
@@ -67,6 +89,51 @@
 				B213E94126634C8800AED5BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B213E94A26634CB300AED5BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B213E95026634EEC00AED5BA /* HomeView.swift */,
+				B213E957266395A800AED5BA /* UseChemicalsView.swift */,
+				B213E95A266395B600AED5BA /* MSDSView.swift */,
+				B213E95D266395C100AED5BA /* FirstAidView.swift */,
+				B213E960266395D100AED5BA /* ReportsUsageView.swift */,
+				B213E963266395E300AED5BA /* PropertySetUpView.swift */,
+				B213E966266395EE00AED5BA /* OrdersView.swift */,
+				B213E969266395FF00AED5BA /* AdministrationView.swift */,
+				B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B213E94B26634CBF00AED5BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B213E95326634F2100AED5BA /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B213E94C26634CC600AED5BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B213E94D26634CCC00AED5BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B213E94E26634CD600AED5BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B213E93D26634C8600AED5BA /* ContentView.swift in Sources */,
+				B213E964266395E300AED5BA /* PropertySetUpView.swift in Sources */,
+				B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */,
+				B213E95B266395B600AED5BA /* MSDSView.swift in Sources */,
+				B213E961266395D100AED5BA /* ReportsUsageView.swift in Sources */,
+				B213E95126634EEC00AED5BA /* HomeView.swift in Sources */,
+				B213E967266395EE00AED5BA /* OrdersView.swift in Sources */,
+				B213E95426634F2100AED5BA /* ContentModel.swift in Sources */,
+				B213E958266395A800AED5BA /* UseChemicalsView.swift in Sources */,
+				B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */,
 				B213E93B26634C8600AED5BA /* ChemMateApp.swift in Sources */,
+				B213E95E266395C100AED5BA /* FirstAidView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
