@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct ChemicalStocktakeView: View {
+    
+    @Binding var selectedIndex:Int?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Chemical Stocktake View")
     }
 }
 
-struct ChemicalStocktake_Previews: PreviewProvider {
-    static var previews: some View {
-        ChemicalStocktakeView()
-    }
-}
+

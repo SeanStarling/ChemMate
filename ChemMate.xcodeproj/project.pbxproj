@@ -20,6 +20,7 @@
 		B213E967266395EE00AED5BA /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E966266395EE00AED5BA /* OrdersView.swift */; };
 		B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E969266395FF00AED5BA /* AdministrationView.swift */; };
 		B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */; };
+		B213E99B26742DB500AED5BA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E99A26742DB400AED5BA /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B213E966266395EE00AED5BA /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 		B213E969266395FF00AED5BA /* AdministrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrationView.swift; sourceTree = "<group>"; };
 		B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalStocktakeView.swift; sourceTree = "<group>"; };
+		B213E99A26742DB400AED5BA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B213E966266395EE00AED5BA /* OrdersView.swift */,
 				B213E969266395FF00AED5BA /* AdministrationView.swift */,
 				B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */,
+				B213E99A26742DB400AED5BA /* SwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				B213E964266395E300AED5BA /* PropertySetUpView.swift in Sources */,
 				B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */,
+				B213E99B26742DB500AED5BA /* SwiftUIView.swift in Sources */,
 				B213E95B266395B600AED5BA /* MSDSView.swift in Sources */,
 				B213E961266395D100AED5BA /* ReportsUsageView.swift in Sources */,
 				B213E95126634EEC00AED5BA /* HomeView.swift in Sources */,

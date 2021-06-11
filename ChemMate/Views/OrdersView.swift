@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct OrdersView: View {
+    
+    @Binding var selectedIndex:Int?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Orders View")
     }
 }
 
-struct Orders_Previews: PreviewProvider {
-    static var previews: some View {
-        OrdersView()
-    }
-}
+
+

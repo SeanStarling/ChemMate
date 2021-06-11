@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct ReportsUsageView: View {
+    
+    @Binding var selectedIndex:Int?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Report Usage View")
     }
 }
 
-struct ReportsUsage_Previews: PreviewProvider {
-    static var previews: some View {
-        ReportsUsageView()
-    }
-}
+
