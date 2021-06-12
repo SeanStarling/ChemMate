@@ -15,7 +15,9 @@ struct HomeView: View {
     var body: some View {
         
         
-        VStack (spacing: 1){
+        VStack (spacing: 0){
+        
+// MARK: - Header
             // PRM Logo Header Image
             Image("PRMLogo")
             
@@ -39,90 +41,140 @@ struct HomeView: View {
                 // Padding for Header
                 .padding(.bottom, 0.0)
             
-            // Action buttons
+
+// MARK: - Action buttons
             NavigationView{
                 
-                VStack(alignment: .center, spacing: 30, content: {
+                VStack(alignment: .center, spacing: 10, content: {
                     
                     //Use Chemicals
-                    NavigationLink(
-                        destination: UseChemicalsView(selectedIndex: $selectedIndex),
-                        tag: 1,
-                        selection: $selectedIndex,
-                        label: {Text("Use Chemicals")
-                        })
-                    
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: UseChemicalsView(selectedIndex: $selectedIndex),
+                            tag: 1,
+                            selection: $selectedIndex,
+                            label: {Text("Use Chemicals")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
                     
                     //MSDS
-                    NavigationLink(
-                        destination: MSDSView(selectedIndex: $selectedIndex),
-                        tag: 2,
-                        selection: $selectedIndex,
-                        label: {Text("MSDS")
-                        })
-
+                    ZStack{
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: MSDSView(selectedIndex: $selectedIndex),
+                            tag: 2,
+                            selection: $selectedIndex,
+                            label: {Text("MSDS")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                        
+                    }
                     
                     //First Aid
-                    NavigationLink(
-                        destination: FirstAidView(selectedIndex: $selectedIndex),
-                        tag: 3,
-                        selection: $selectedIndex,
-                        label: {Text("First Aid")
-                        })
-
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: FirstAidView(selectedIndex: $selectedIndex),
+                            tag: 3,
+                            selection: $selectedIndex,
+                            label: {Text("First Aid")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
+                    
                     //Reports / Usage
-                    NavigationLink(
-                        destination: ReportsUsageView(selectedIndex: $selectedIndex),
-                        tag: 3,
-                        selection: $selectedIndex,
-                        label: {Text("Reports / Usage")
-                        })
-
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: ReportsUsageView(selectedIndex: $selectedIndex),
+                            tag: 3,
+                            selection: $selectedIndex,
+                            label: {Text("Reports / Usage")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
+                    
                     //Property Set-up
-                    NavigationLink(
-                        destination: PropertySetUpView(selectedIndex: $selectedIndex),
-                        tag: 4,
-                        selection: $selectedIndex,
-                        label: {Text("Property Set-Up")
-                        })
-
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: PropertySetUpView(selectedIndex: $selectedIndex),
+                            tag: 4,
+                            selection: $selectedIndex,
+                            label: {Text("Property Set-Up")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
+                    
                     //Orders
-                    NavigationLink(
-                        destination: OrdersView(selectedIndex: $selectedIndex),
-                        tag: 5,
-                        selection: $selectedIndex,
-                        label: {Text("Orders")
-                        })
-
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: OrdersView(selectedIndex: $selectedIndex),
+                            tag: 5,
+                            selection: $selectedIndex,
+                            label: {Text("Orders")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
+                    
                     //Administration
-                    NavigationLink(
-                        destination: AdministrationView(selectedIndex: $selectedIndex),
-                        tag: 6,
-                        selection: $selectedIndex,
-                        label: {Text("Administration")
-                        })
-
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: AdministrationView(selectedIndex: $selectedIndex),
+                            tag: 6,
+                            selection: $selectedIndex,
+                            label: {Text("Administration")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
+                    
                     //Chemical Stocktake
-                    NavigationLink(
-                        destination: ChemicalStocktakeView(selectedIndex: $selectedIndex),
-                        tag: 7,
-                        selection: $selectedIndex,
-                        label: {Text("Chemical Stocktake")
-                        })
-
+                    ZStack{
+                        
+                        HomeViewButtons()
+                        
+                        NavigationLink(
+                            destination: ChemicalStocktakeView(selectedIndex: $selectedIndex),
+                            tag: 7,
+                            selection: $selectedIndex,
+                            label: {Text("Chemical Stocktake")
+                                .font(.title2)
+                                .foregroundColor(Color.black)
+                            })
+                    }
                     
                 })
-                .padding(.bottom, 100)
+                .padding(.bottom, 50.0)
+
                 
             }
             
             
-            
+//MARK: - Footer
             // Footer
             Rectangle()
                 .foregroundColor(Color(red: 0.0, green: 0.0, blue: 1.0, opacity: 1.0))

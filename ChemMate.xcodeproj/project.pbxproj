@@ -21,6 +21,7 @@
 		B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E969266395FF00AED5BA /* AdministrationView.swift */; };
 		B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */; };
 		B213E99B26742DB500AED5BA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E99A26742DB400AED5BA /* SwiftUIView.swift */; };
+		B213E9A32674328000AED5BA /* HomeViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E9A22674328000AED5BA /* HomeViewButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B213E969266395FF00AED5BA /* AdministrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrationView.swift; sourceTree = "<group>"; };
 		B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalStocktakeView.swift; sourceTree = "<group>"; };
 		B213E99A26742DB400AED5BA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B213E9A22674328000AED5BA /* HomeViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B213E95026634EEC00AED5BA /* HomeView.swift */,
+				B213E9A22674328000AED5BA /* HomeViewButtons.swift */,
 				B213E957266395A800AED5BA /* UseChemicalsView.swift */,
 				B213E95A266395B600AED5BA /* MSDSView.swift */,
 				B213E95D266395C100AED5BA /* FirstAidView.swift */,
@@ -217,6 +220,7 @@
 				B213E967266395EE00AED5BA /* OrdersView.swift in Sources */,
 				B213E95426634F2100AED5BA /* ContentModel.swift in Sources */,
 				B213E958266395A800AED5BA /* UseChemicalsView.swift in Sources */,
+				B213E9A32674328000AED5BA /* HomeViewButtons.swift in Sources */,
 				B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */,
 				B213E93B26634C8600AED5BA /* ChemMateApp.swift in Sources */,
 				B213E95E266395C100AED5BA /* FirstAidView.swift in Sources */,
