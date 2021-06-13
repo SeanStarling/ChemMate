@@ -12,7 +12,20 @@ struct ChemicalStocktakeView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
-        Text("Chemical Stocktake View")
+        
+
+        NonHomePageHeader()
+            
+            
+        Text("Chemnical Stocktake View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

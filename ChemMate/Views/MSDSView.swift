@@ -12,7 +12,20 @@ struct MSDSView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
+        
+
+        NonHomePageHeader()
+            
+            
         Text("MSDS View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

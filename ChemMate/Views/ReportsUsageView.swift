@@ -12,7 +12,20 @@ struct ReportsUsageView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
-        Text("Report Usage View")
+        
+
+        NonHomePageHeader()
+            
+            
+        Text("Reports Usage View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

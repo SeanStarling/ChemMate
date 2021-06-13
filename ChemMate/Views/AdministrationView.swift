@@ -12,7 +12,20 @@ struct AdministrationView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
+        
+
+        NonHomePageHeader()
+            
+            
         Text("Administration View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

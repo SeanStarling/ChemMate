@@ -12,7 +12,20 @@ struct OrdersView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
+        
+
+        NonHomePageHeader()
+            
+            
         Text("Orders View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

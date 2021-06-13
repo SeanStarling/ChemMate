@@ -13,7 +13,20 @@ struct PropertySetUpView: View {
     
     
     var body: some View {
+        
+
+        NonHomePageHeader()
+            
+            
         Text("Property Set-up View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

@@ -12,7 +12,20 @@ struct FirstAidView: View {
     @Binding var selectedIndex:Int?
     
     var body: some View {
+        
+
+        NonHomePageHeader()
+            
+            
         Text("First Aid View")
+        
+        
+        Spacer()
+        
+        
+        FooterView()
+        
+        
     }
 }
 

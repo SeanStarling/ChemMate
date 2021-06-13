@@ -22,6 +22,8 @@
 		B213E96D2663960E00AED5BA /* ChemicalStocktakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */; };
 		B213E99B26742DB500AED5BA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E99A26742DB400AED5BA /* SwiftUIView.swift */; };
 		B213E9A32674328000AED5BA /* HomeViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E9A22674328000AED5BA /* HomeViewButtons.swift */; };
+		B213E9A72674424400AED5BA /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E9A62674424300AED5BA /* FooterView.swift */; };
+		B2F5FEF126746CBE0025F6A6 /* NonHomePageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5FEF026746CBE0025F6A6 /* NonHomePageHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		B213E96C2663960E00AED5BA /* ChemicalStocktakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalStocktakeView.swift; sourceTree = "<group>"; };
 		B213E99A26742DB400AED5BA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B213E9A22674328000AED5BA /* HomeViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewButtons.swift; sourceTree = "<group>"; };
+		B213E9A62674424300AED5BA /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B2F5FEF026746CBE0025F6A6 /* NonHomePageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonHomePageHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				B213E95026634EEC00AED5BA /* HomeView.swift */,
-				B213E9A22674328000AED5BA /* HomeViewButtons.swift */,
 				B213E957266395A800AED5BA /* UseChemicalsView.swift */,
 				B213E95A266395B600AED5BA /* MSDSView.swift */,
 				B213E95D266395C100AED5BA /* FirstAidView.swift */,
@@ -117,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				B213E95326634F2100AED5BA /* ContentModel.swift */,
+				B213E9A22674328000AED5BA /* HomeViewButtons.swift */,
+				B213E9A62674424300AED5BA /* FooterView.swift */,
+				B2F5FEF026746CBE0025F6A6 /* NonHomePageHeader.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -212,10 +218,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B213E964266395E300AED5BA /* PropertySetUpView.swift in Sources */,
+				B213E9A72674424400AED5BA /* FooterView.swift in Sources */,
 				B213E96A266395FF00AED5BA /* AdministrationView.swift in Sources */,
 				B213E99B26742DB500AED5BA /* SwiftUIView.swift in Sources */,
 				B213E95B266395B600AED5BA /* MSDSView.swift in Sources */,
 				B213E961266395D100AED5BA /* ReportsUsageView.swift in Sources */,
+				B2F5FEF126746CBE0025F6A6 /* NonHomePageHeader.swift in Sources */,
 				B213E95126634EEC00AED5BA /* HomeView.swift in Sources */,
 				B213E967266395EE00AED5BA /* OrdersView.swift in Sources */,
 				B213E95426634F2100AED5BA /* ContentModel.swift in Sources */,

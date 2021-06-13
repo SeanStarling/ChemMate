@@ -15,7 +15,7 @@ struct HomeViewButtons: View {
             .foregroundColor(.gray)
             .cornerRadius(10)
             .shadow(radius: 5)
-            .aspectRatio(CGSize(width: 180, height: 30), contentMode: .fit)
+            .aspectRatio(CGSize(width: 150, height: 30), contentMode: .fit)
             .padding(.vertical, 5.0)
     }
 
